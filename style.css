@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #b4abab;
+    margin: 0;
+}
+
+h1{
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 500px) {
+    h1{
+        font-size: 3.5rem;
+        line-height: 2;
+    }
+}
+
+h2{
+    font-size: 3.3rem;
+}
+
+a{
+    color: #4782ca;
+}
+
+#main{
+    margin: 40px 10px;
+    padding: 1.5rem;
+    border-radius: 5px;
+    background: #05181c;
+}
+
+@media (max-width: 500px) {
+    #main{
+        margin: 0;
+    }
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    background: #8c503b;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+#img-caption{
+    margin: 10px 0;
+}
+
+@media (max-width: 500px) {
+    #img-caption{
+        font-size: 1.4rem;
+    }
+}
+
+#tribute, #headline{
+    margin: 50px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#tribute-text{
+    width: 60vw;
+    margin: auto;
+}
+
+@media (max-width: 500px) {
+    #tribute-text{
+        width: 85vw;
+    }
+}
+
+ul{
+    width: 35vw;
+    margin: 3rem auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+@media (max-width: 500px) {
+    ul{
+        width: 55vw;
+    }
+}
+
+li{
+    margin: 1.5rem;
+}
